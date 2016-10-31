@@ -50,31 +50,33 @@ h2 {
 #nav-list {
   margin-top: 10px;
 }
-#nav-list a {
-  color: #951C49;
-  text-align: center;
-}
 #nav-list a:hover {
-  background: #E7E7E7;
+  color: white;
+}
+#nav-list a {
+  text-align: center;
+  color: black;
 }
 #nav-list a span {
   font-size: 1.8em;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
-  margin-top: -60px;
+  margin-top: -42px;
 }
 @media (max-width: 767px) {
-  /* Header */
   .navbar-brand {
-    padding-top: 10px;
-    height: 80px;
+  	padding-top: 10px;
+    height: 60px;
   }
   .navbar-brand h1 { 
     padding-top: 10px;
-    font-size: 5vw; 
+    font-size: 4vw; 
   }
-  #collapsable-nav a { /* Collapsed nav menu text */
-    font-size: 1.2em;
+  #collapsable-nav {
+  	margin-top: 10px;
   }
-  /* End Header */
+  #collapsable-nav a { 
+    font-size: 2.0em;
+  }
+}
